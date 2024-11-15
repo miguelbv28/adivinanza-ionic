@@ -9,4 +9,71 @@
     text-align: center;
     margin-top: 10px;
     }
+
+    /* login.page.scss */
+
+ion-content {
+  --background: #f7f9fc; /* Fondo suave para la página */
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Asegura que el formulario esté centrado verticalmente */
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px; /* Limita el tamaño del card */
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+ion-card-header {
+  background-color: #4ab7e2; /* Color de fondo del header */
+  color: white;
+  border-radius: 15px 15px 0 0;
+  padding: 20px;
+}
+
+ion-card-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+ion-card-subtitle {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.input-item {
+  margin-bottom: 20px; /* Espaciado entre los campos de entrada */
+}
+
+ion-button {
+  border-radius: 8px; /* Bordes redondeados en el botón */
+  font-weight: bold;
+}
+
+.login-button {
+  background-color: #4a90e2;
+  --background-activated: #357abd;
+  color: white;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-link a {
+  color: #4ab4e2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
    

@@ -1,0 +1,61 @@
+/* game.page.scss */
+ion-header {
+    --background: #e2be4a; /* Color de fondo personalizado */
+    color: white; /* Color de texto en el encabezado */
+  }
+  
+  ion-toolbar {
+    --background: #e1be22;
+  }
+  
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f9fc; /* Fondo del contenedor del juego */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  ion-card {
+    width: 100%;
+    max-width: 400px;
+    margin: 15px 0;
+    --background: #ffffff; /* Fondo de las tarjetas */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  ion-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #616161;
+  }
+  
+  ion-card-subtitle {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  ion-item {
+    --highlight-color-focused: #fd6e00; /* Color del borde cuando el input está enfocado */
+  }
+  
+  ion-button {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+  
+  ion-button[expand="block"] {
+    --background: #deb01b; /* Color principal de botón */
+    --background-activated: #e4b51a; /* Color cuando el botón es presionado */
+  }
+  
+  ion-button [color="medium"] {
+    --background: #515151; /* Color para el botón de reiniciar */
+    --background-activated: #8c9ea3;
+  }
+
+  

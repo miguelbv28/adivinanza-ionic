@@ -9,3 +9,88 @@
     text-align: center;
     margin-top: 10px;
     }
+
+    // Fondo y margen general
+ion-content {
+    --background: #f2f2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  // Contenedor del registro
+  .register-container {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  // Estilos para el ion-card
+  ion-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  // Estilos para el encabezado del card
+  ion-card-header {
+    background: #4a90e2;
+    color: white;
+  
+    ion-card-title {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+  
+    ion-card-subtitle {
+      color: #d1e9ff;
+      font-size: 0.9em;
+    }
+  }
+  
+  // Personalización de cada item del formulario
+  ion-item {
+    --background: #ffffff;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 6px;
+  }
+  
+  // Estilo de los labels y inputs
+  ion-label {
+    color: #4a90e2;
+  }
+  
+  ion-input {
+    color: #333;
+  }
+  
+  // Botón de registro
+  ion-button {
+    --background: #4a90e2;
+    --color: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 8px;
+  
+    &:hover {
+      --background: #357ABD;
+    }
+  }
+  
+  // Enlace para iniciar sesión
+  .login-link {
+    text-align: center;
+    margin-top: 10px;
+  
+    ion-label {
+      color: #333;
+      font-size: 0.9em;
+    }
+  
+    a {
+      color: #4a90e2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
+  

@@ -1,0 +1,58 @@
+// Fondo claro y espaciamiento general
+ion-content {
+  --background: #f4f6f9;
+  padding: 20px;
+}
+
+// Estilo para el encabezado
+ion-header {
+  ion-toolbar {
+    background: #16781c;
+    color: rgb(0, 0, 0);
+
+    ion-title {
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+  }
+}
+
+// Personalización de cada item de la lista
+ion-item {
+  border-radius: 8px;
+  margin: 8px 0;
+  --background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+// Estilo para el índice del jugador
+ion-text h3 {
+  color: #27703a;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+// Personalización de la etiqueta principal (nombre de usuario)
+ion-label {
+  font-size: 1em;
+
+  strong {
+    color: #333;
+    font-size: 1.1em;
+  }
+
+  p {
+    color: #666;
+    font-size: 0.9em;
+    margin: 4px 0 0;
+  }
+}
+
+// Estilo para los puntos
+ion-note {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #ff6b6b;
+}

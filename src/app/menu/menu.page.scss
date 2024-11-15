@@ -11,3 +11,74 @@
     text-align: center;
     align-content: center;
    }
+
+   /* menu.page.scss */
+ion-content {
+    --background: #ffffff; /* Color de fondo del contenido */
+  }
+  
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .menu-container h1 {
+    font-size: 2rem;
+    color: #ff0000; /* Color del título "Adivina el numero" */
+    margin-bottom: 10px;
+  }
+  
+  ion-text {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .menu-option {
+    width: 80%;
+    max-width: 400px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .menu-option[color="primary"] {
+    --background: #ffae00; /* Color de fondo para "Jugar" */
+    color: white;
+  }
+  
+  .menu-option[color="warning"] {
+    --background: #1d9725; /* Color de fondo para "Ranking" */
+    color: #333;
+  }
+  
+  .menu-option[color="dark"] {
+    --background: #7c7b7b; /* Color de fondo para "Salir" */
+    color: white;
+  }
+  
+  ion-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  ion-card-header {
+    text-align: center;
+  }
+  /* menu.page.scss */
+.menu-option.jugar {
+    --background: #ffd900; /* Color de fondo para "Jugar" */
+    color: white;
+  }
+  
+  .menu-option.ranking {
+    --background: #227534; /* Color de fondo para "Ranking" */
+    color: black;
+  }
+  
+  .menu-option.salir {
+    --background: #929292; /* Color de fondo para "Salir" */
+    color: white;
+  }
