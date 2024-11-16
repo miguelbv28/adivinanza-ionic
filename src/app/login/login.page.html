@@ -6,6 +6,12 @@
         <ion-card-subtitle>Adivina el numero</ion-card-subtitle>
       </ion-card-header>
       <ion-card-content>
+        <!-- Mensaje de error -->
+        <ion-card *ngIf="mensajeError" color="danger">
+          <ion-card-content class="ion-text-center">
+            {{ mensajeError }}
+          </ion-card-content>
+        </ion-card>
         <form #frmLogin="ngForm">
           <!-- Campo de Usuario -->
           <ion-item class="input-item">

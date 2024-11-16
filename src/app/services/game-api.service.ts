@@ -75,4 +75,8 @@ export class GameApiService {
       .toPromise();
       }
 
+      async logout(): Promise<any> {
+        localStorage.removeItem('token');
+      }
+
 }

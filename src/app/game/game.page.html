@@ -24,13 +24,13 @@
   <!-- Botón para adivinar -->
   <ion-button class="boton-adivinar" (click)="onClickAdivinar()" expand="block">Adivinar</ion-button>
   <!-- Reiniciar juego si ha terminado -->
-  <ion-button color="reiniciar" (click)="onClickReiniciar()" expand="block">Reiniciar Juego</ion-button>
+  <ion-button color="danger" (click)="onClickReiniciar()" expand="block">Reiniciar Juego</ion-button>
 </ion-card-content>
 </ion-card>
 <!-- Mensaje de respuesta -->
 <ion-card mode="">
 <ion-card-header class="ion-text-center">
-<ion-card-subtitle>Mensaje</ion-card-subtitle>
+<p>{{ mensaje }}</p>
 </ion-card-header>
 </ion-card>
 </div>
